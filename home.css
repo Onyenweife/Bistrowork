@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+#hero{
+    height: 400px;
+    background-color: blue;
+    background-image: url(images/leaf.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 5% 10%;
+}
+#hero p{
+    margin-bottom: 10px;
+}
+#hero h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#hero button:first-of-type{
+background-color: orange;
+color: black;
+border: none;
+}
+#hero button{
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+#hero button:last-of-type{
+background-color: transparent;
+color: white;
+border: 2px solid white;
+}
+#about img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+}
+#about div{
+    width: 47%;
+}
+#about div p:first-of-type{
+    color: orange;
+}
+#about div:last-of-type{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+#about button{
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+  #people{
+            padding: 20px 5%;
+            background-color: white;
+        }
+        #people img{
+            height: 200px;
+            width: 100%;
+            border-radius: 8%;
+        }
+        #people .container{
+        display: flex;
+        justify-content: space-between;
+
+        }
+         #people h2{
+            text-align: center;
+            margin-bottom: 10px;
+         }
+         #people .container div{
+            width: 31%;
+            background-color: white;
+            border-radius: 10%;
+            color: black;
+            
+         }
+         .container h3,p{
+            margin-top: 15px;
+            margin-left: 15px;
+         }
+
+
+           #sch{
+        padding: 20px 5%;
+       }
+       #yes .sch{
+        display: flex;
+        justify-content: space-between;
+        background-color:black ;
+        color: white;
+        
+       }
+      #yes h1, h3{
+        text-align: center;
+        text-transform: capitalize;
+        
+       }
+       #yes{
+        padding: 20px 5%;
+        background-color: black;
+       }
+h1{
+    margin-bottom: 20px;
+    color: white;
+}
+span{
+    margin-left: 200px;
+    color: orange;
+    font-size: 40px;
+}
+ .vet{
+            border-left: 2px solid antiquewhite;
+            height: 150px;
+        }
+
+#school{
+    padding: 5%;
+    text-align: center;
+}
+#school p{
+    margin-bottom: 10px;
+}
+#school h6{
+    color: orange;
+}
+#school .solid{
+    color: orange;
+} 
+
+
+
+#meal{
+ display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    align-items: center; 
+    background-color: black;  
+    color: white;
+    background-image: url(images/chicken.jpg);
+        background-position: center;
+    background-size: cover
+}
+#meal button{
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+#meal p, h3{
+    font-weight: bold;
+}
+@media(max-width: 500px){
+    #hero{
+        padding: 15px 10px;
+    }
+    #about{
+        flex-direction: column;
+    }
+    #about div{
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+    #people .container{
+        flex-direction: column;
+    }   
+    #people .container div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #yes .sch{
+        flex-direction: column;
+    }
+    .vet{
+           border: none;
+            border-top: 2px solid antiquewhite;
+            height: 150px
+        }
+          #yes div{
+            padding: 30px
+          }
+       #yes span{
+        margin-left: 35%;
+       }
+       
+       #meal{
+        padding: 5%;
+        font-weight: 600;
+       }
+       #meal p{
+        font-size: 14px;
+       }
+       #meal h1{
+        font-size: 20px;
+       }
+}
+

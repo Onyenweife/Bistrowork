@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+#hero{
+    height: 200px;
+    background-color: blue;
+    background-image: url(images/leaf.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 5% 10%;
+}
+#hero p{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 150px;
+}
+#hero h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+#all{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+#all button{
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+}
+#all button:first-of-type{
+    background-color: orange;
+    color: white;
+}
+#dishes{
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+   
+}
+#dishes img{
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#dishes .foods{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+#dishes h1,h4,p{
+    padding: 5px;
+    margin-right: 150px;
+
+}
+#dishes h4:last-of-type{
+  margin-right: 300px;
+}
+#dishes .foods p:last-of-type{
+    color: orange;
+    margin-left: 90%;
+}
+#chef img{
+    height: 270px;
+    width: 750px;
+    
+}
+#chef{
+    background-color: whitesmoke;
+display: flex;
+flex-direction: row;
+
+
+}
+
+#chef button{
+    margin-left: 200px;
+    padding: 5px 15px;
+    background-color: orange;
+    border: none;
+}
+#chef .recommendation{
+    padding: 10px 40px;
+}
+
+
